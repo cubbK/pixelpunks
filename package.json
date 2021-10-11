@@ -32,7 +32,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "hardhat-deploy": "hardhat run --network localhost scripts/deploy.js",
-    "hardhat-server": "hardhat node"
+    "hardhat-server": "hardhat node",
+    "generate-metadatas": "ts-node generateMetadatas.ts"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +52,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   }
 }
